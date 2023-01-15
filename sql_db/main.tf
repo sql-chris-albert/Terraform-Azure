@@ -44,6 +44,6 @@ resource "azurerm_mssql_database" "db-terraform" {
   storage_account_type = "Local"
 
   tags = {
-    foo = "bar"
+    environment = "development"
   }
 }
