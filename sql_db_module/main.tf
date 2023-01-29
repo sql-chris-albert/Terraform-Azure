@@ -29,7 +29,7 @@ module "sql-server-01" {
   resource_group_name = azurerm_resource_group.rg-terraform-01.name
   azure_region        = azurerm_resource_group.rg-terraform-01.location
   admin_username      = "db_admin"
-  admin_object_id     = "85814e6d-b552-4738-9414-2a20f60e7313"
+  admin_object_id     = ""
   tag_environment     = "development"
 }
 
@@ -40,7 +40,7 @@ module "sql-server-02" {
   resource_group_name = azurerm_resource_group.rg-terraform-02.name
   azure_region        = azurerm_resource_group.rg-terraform-02.location
   admin_username      = "db_admin"
-  admin_object_id     = "85814e6d-b552-4738-9414-2a20f60e7313"
+  admin_object_id     = ""
   tag_environment     = "development"
 }
 

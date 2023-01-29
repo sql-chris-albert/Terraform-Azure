@@ -25,7 +25,7 @@ resource "azurerm_mssql_server" "sql-server-terraform" {
 
   azuread_administrator {
     login_username              = "db_admin"
-    object_id                   = "85814e6d-b552-4738-9414-2a20f60e7313"
+    object_id                   = ""
     azuread_authentication_only = true
   }
 
